@@ -1,0 +1,30 @@
+{
+  "name": "minista-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "minista",
+    "build": "minista build",
+    "preview": "minista preview"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "minista": "^3.1.11",
+    "postcss-pxtorem": "^6.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.81.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@a1rth/css-normalize": "^1.1.9",
+    "clsx": "^2.1.1",
+    "imask": "^7.6.1",
+    "swiper": "^11.1.15"
+  }
+}
